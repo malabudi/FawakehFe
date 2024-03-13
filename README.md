@@ -4,6 +4,33 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
+Follow the link above and stop after you made your environment variable. Clone this repository locally and run the following commands:
+
+```bash
+# using npm
+npm install
+
+# OR using Yarn
+yarn install
+```
+
+Additionally if you are on mac, run this command
+
+```bash
+npx pod-install ios
+```
+
+Finally, under the android folder find local.properties and make sure you are following the right path to grab the SDK locally.
+Simply just copy and paste the respective line into that file. Your username will just be the name of your user local to your PC.
+
+```bash
+# Windows
+sdk.dir=C\:\\Users\\USERNAME\\AppData\\Local\\Android\\Sdk
+
+# Mac
+sdk.dir = /Users/USERNAME/Library/Android/sdk 
+```
+
 ## Step 1: Start the Metro Server
 
 First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
