@@ -5,10 +5,10 @@ export interface Props {
     navigation: any;
 }
 
-const LeaderboardScreen = (props: PropsWithChildren<Props>) => {
+const HowToPlayScreen = (props: PropsWithChildren<Props>) => {
   return (
     <View>
-      <Text>Leaderboard Screen</Text>
+      <Text>How To Play Screen</Text>
       <TouchableOpacity onPress={() => props.navigation.navigate('Home')}>
         <Text>Go Back</Text>
       </TouchableOpacity>
@@ -16,4 +16,4 @@ const LeaderboardScreen = (props: PropsWithChildren<Props>) => {
   );
 };
 
-export default LeaderboardScreen;
+export default HowToPlayScreen;
